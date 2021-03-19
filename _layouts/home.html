@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Gaelan Steele</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/04c7a247b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/home.css">
+  </head>
+  <body>
+    <main>
+        {{content}}
+        <div id="links">
+            <a href="mailto:gbs+website@canishe.com">
+                <span class="fas fa-envelope fa-3x fa-fw"></span>
+            </a>
+            <a href="https://github.com/Gaelan">
+                <span class="fab fa-github fa-3x fa-fw"></span>
+            </a>
+            <a href="https://twitter.com/GaelanSteele">
+                <span class="fab fa-twitter fa-3x fa-fw"></span>
+            </a>
+        </div>
+    </main>
+    <script>
+        async function tabs() {
+            const count = (await (await fetch("http://tabs.gaelan.me/tabs.txt")).text()).trim();
+            document.getElementById("tabs").innerText = count;
+        }
+        tabs()
+    </script>
+  </body>
+</html>

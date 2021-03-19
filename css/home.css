@@ -1,0 +1,32 @@
+main {
+    text-align: center;
+    margin: auto;
+    margin-top: 30vh;
+    max-width: 40em;
+}
+
+main h1 {
+    font-weight: 300;
+    font-size: 4em;
+    color: #333;
+    margin-bottom: 0;
+}
+
+main p {
+    color: #444;
+    margin-top: 0;
+}
+
+#links a {
+    color: #444;
+}
+
+#links a:hover {
+    color: #222;
+}
+
+a#tabs, a#tabs:visited {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
