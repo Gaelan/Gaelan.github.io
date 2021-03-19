@@ -26,7 +26,7 @@
     </main>
     <script>
         async function tabs() {
-            const count = (await (await fetch("http://tabs.gaelan.me/tabs.txt")).text()).trim();
+            const count = (await (await fetch("https://s3-us-west-2.amazonaws.com/tabs.gaelan.me/tabs.txt")).text()).trim();
             document.getElementById("tabs").innerText = count;
         }
         tabs()
