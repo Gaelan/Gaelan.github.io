@@ -9,9 +9,10 @@ layout: home
 Hi! I'm Gaelan Steele, a undergraduate computer science student at the [University of St Andrews][sta].
 My interests include web development, systems programming, and reverse engineering.
 I'm also passionate about social justice and equality; nothing we do exists in a vacuum.
-In the past, I've worked as an intern at the [Peninsula School District][psd] and contributed to [ResistBot][resistbot] and [Nixpkgs][nixpkgs].
+In the past, I've [done a Google Summer of Code project working on a Rust hypervisor][gsoc], worked as an intern at the [Peninsula School District][psd] and contributed to [ResistBot][resistbot] and [Nixpkgs][nixpkgs].
 I currently have <a href="http://tabs.gaelan.me" id="tabs"></a> browser tabs open.
 
+[gsoc]: https://summerofcode.withgoogle.com/archive/2021/projects/6705083835744256
 [sta]: https://st-andrews.ac.uk
 [psd]: https://psd401.net
 [resistbot]: https://resist.bot
