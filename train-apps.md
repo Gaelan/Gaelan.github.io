@@ -13,19 +13,13 @@ This page is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/
 
 # Worldwide Apps
 
-[Öffi](https://oeffi.schildbach.de) is an Android app providing public transport data in many areas, primarily Europe but also North America and possible Australia. I'm told it works well in Germany and Austria, less so in the UK; I don't have an Android phone so haven't tested it myself.
-
-# USA/Canada
-
-## Amtrak & Via Rail
-
-**[Intercity Rail Map](https://asm.transitdocs.com)** provides a good indication of the location and status of all Amtrak/Via trains.
-
-## Local Transit
-
-**[Pantograph](https://www.pantographapp.com)** provides a stellar realtime status map of buses, metros, ferries, etc in 14 US/Canadian regions.
+**[Öffi](https://oeffi.schildbach.de)** is an Android app providing public transport data in many areas, primarily Europe but also North America and possible Australia. I'm told it works well in Germany and Austria, less so in the UK; I don't have an Android phone so haven't tested it myself.
 
 # Europe
+
+## Germany
+
+I'm told **[Bahn Experte](https://bahn.expert)** is good. No English UI (that I can find), but you can probably get the gist.
 
 ## Pan-European Apps
 
@@ -52,7 +46,7 @@ Useful things to know about when referring to these resources:
 
 Note that Railboard uses the passenger-facing Darwin system, while RTT and OTT use internal data from Network Rail, the infrastructure operator. This means they sometimes provide different information; for example, sometimes cancellations appear on one before the other. It's worth keeping an eye on both when things get hairy.
 
-**[BRtimes](https://www.brtimes.com) and [BRfares](https://www.brfares.com)** are excellent frontends to the National Rail timetable and fare data, respectively. These are my favorite tools for getting a rough sense of what a journey would look like, but note that neither of them have access to real-time data. BRtimes won't tell you about on-the-day cancellations or delays, and BRfares can only give you the theoretical price levels for a ticket, not what the price will be for advance tickets for a given train on a specific day.
+**[BRtimes](https://www.brtimes.com) and [BRfares](https://www.brfares.com)** are frontends to the National Rail timetable and fare data, respectively. These are my favorite tools for getting a rough sense of what a journey would look like, but note that neither of them have access to real-time data. BRtimes won't tell you about on-the-day cancellations or delays, and BRfares can only give you the theoretical price levels for a ticket, not what the price will be for advance tickets for a given train on a specific day.
 
 Any train company will sell you tickets for any mainline train at the same prices, but **[TrainSplit](https://trainsplit.com)** is often able to find cheaper prices by using a combination of tickets. It also has good search tools that can be used to massage it into booking you an unusual route. Railboard (mentioned above) also sells tickets via TrainSplit (and thus gets the same prices), but I usually prefer the website unless I'm booking on the go.
 
@@ -60,7 +54,7 @@ In Scotland, ScotRail uses a horrible format for digital tickets that TrainSplit
 
 While seat reservations are never required (except on sleepers), they're nice to have; if you ever find yourself with a ticket but no seat reservation (for example, if you have a flexible ticket, or you're travelling on a later train due to a missed connection), you can get one for any train operator on **[GWR's website](https://www.gwr.com)**, under My account > View bookings > Make a seat/bike reservation.
 
-### Buses, Trams, Metros, etc
+### Local transport
 
 **[bustimes.org](https://bustimes.org)** provides timetable data, and real-time maps, for buses across Britain and Ireland. It also includes various tram and metro services, including the London Underground, though intertube provides more detail there.
 
@@ -70,6 +64,26 @@ While seat reservations are never required (except on sleepers), they're nice to
 
 **[bustimes.org](https://bustimes.org)** provides timetable data, and real-time maps, for buses across Britain and Ireland. It also appears to display Republic of Ireland train timetables (including Dublin DART and the Enterpise to Belfast), but not real-time status information.
 
-## Germany
+## Netherlands
 
-I'm told **[Bahn Experte](https://bahn.expert)** is good. No English UI (that I can find), but you can probably get the gist.
+### Mainline trains
+
+**[Treinposities](https://treinposities.nl)** provides train status, departure boards, rolling stock used, and a nationwide map of train locations. There's an English version (click the flag in the navbar).
+
+### Local transport
+
+**[Busposities](http://www.busposities.nl)** provides a live map of bus/tram/metro/etc vehicles (but no future timetables, as far as I can see).
+
+# North America
+
+## Intercity trains
+
+**[Intercity Rail Map](https://asm.transitdocs.com)** provides a good indication of the location and status of all Amtrak/Via trains.
+
+## Local Transit
+
+**[Pantograph](https://www.pantographapp.com)** provides a realtime status map of buses, metros, ferries, etc in 14 US/Canadian regions.
+
+# Oceania
+
+**[AnyTrip](https://anytrip.com.au/)** provides vehicle position tracking across much of Australia and Aotearoa New Zealand. Originally based in New South Wales but seemingly decent coverage elsewhere too.
