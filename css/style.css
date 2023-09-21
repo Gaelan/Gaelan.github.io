@@ -1,8 +1,11 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: #eee;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #eee;
+
+  max-width: 40em;
+  margin: auto;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }

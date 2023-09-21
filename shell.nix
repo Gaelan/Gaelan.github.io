@@ -9,5 +9,5 @@ let
   };
 in stdenv.mkDerivation {
   name = "Gaelan.github.io";
-  buildInputs = [ env ];
+  buildInputs = [ env bundix ];
 }
