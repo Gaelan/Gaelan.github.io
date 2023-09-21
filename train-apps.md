@@ -17,15 +17,15 @@ This page is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/
 
 # Europe
 
-## Germany
-
-I'm told **[Bahn Experte](https://bahn.expert)** is good. No English UI (that I can find), but you can probably get the gist.
-
 ## Pan-European Apps
 
 [Detutsche Bahn](https://bahn.de/en)'s joruney planner has timetable data for more or less every European country, and will happily offer journeys from, say, London to Istanbul. It won't actually be able to sell tickets for such a journey, mind, but still hugely useful for getting a sense of the route.
 
 [Zugfinder](https://www.zugfinder.net/) purports to offer status information for intercity trains in eight European countries. I've found it to be rather janky, but it's better than nothing.
+
+## Germany
+
+I'm told **[Bahn Experte](https://bahn.expert)** is good. No English UI (that I can find), but you can probably get the gist.
 
 ## Great Britain
 
