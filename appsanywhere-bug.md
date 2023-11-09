@@ -1,4 +1,6 @@
 ---
+title: Security Vulnerabilities in AppsAnywhere
+layout: default
 ---
 
 # AppsAnywhere Vulnerabilities
