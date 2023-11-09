@@ -19,9 +19,13 @@ This page is licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/
 
 ## Pan-European Apps
 
-[Detutsche Bahn](https://bahn.de/en)'s joruney planner has timetable data for more or less every European country, and will happily offer journeys from, say, London to Istanbul. It won't actually be able to sell tickets for such a journey, mind, but still hugely useful for getting a sense of the route.
+**[Detutsche Bahn](https://bahn.de/en)**'s joruney planner has timetable data for more or less every European country, and will happily offer journeys from, say, London to Istanbul. It won't actually be able to sell tickets for such a journey, mind, but still hugely useful for getting a sense of the route.
 
-[Zugfinder](https://www.zugfinder.net/) purports to offer status information for intercity trains in eight European countries. I've found it to be rather janky, but it's better than nothing.
+**[Zugfinder](https://www.zugfinder.net/)** purports to offer status information for intercity trains in eight European countries. I've found it to be rather janky, but it's better than nothing.
+
+# Belgium
+
+**[Railer](https://www.railer.be)** for iOS looks fantastic, though I haven't had occasion to try it.
 
 ## Germany
 
@@ -66,13 +70,15 @@ While seat reservations are never required (except on sleepers), they're nice to
 
 ## Netherlands
 
+**OVinfo** ([iOS](https://apps.apple.com/us/app/ovinfo/id1144468923)/[Android](https://play.google.com/store/apps/details?id=nl.skywave.ovinfo)) shows bus and train departures, looks quite well designed.
+
 ### Mainline trains
 
 **[Treinposities](https://treinposities.nl)** provides train status, departure boards, rolling stock used, and a nationwide map of train locations. There's an English version (click the flag in the navbar).
 
 ### Local transport
 
-**[Busposities](http://www.busposities.nl)** provides a live map of bus/tram/metro/etc vehicles (but no future timetables, as far as I can see).
+**[Busposities](http://www.busposities.nl)** provides a live map of bus/tram/metro/etc vehicles. Dutch only.
 
 # North America
 
