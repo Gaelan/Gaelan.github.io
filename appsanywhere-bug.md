@@ -3,8 +3,6 @@ title: Security Vulnerabilities in AppsAnywhere
 layout: default
 ---
 
-# AppsAnywhere Vulnerabilities
-
 If you're affiliated with one of "over 250" universities, you're probably
 familiar with AppsAnywhere, a system these universities use to deliver software
 to users (on both university-owned and personal computers) on a self-service
