@@ -126,8 +126,8 @@ before it does anything, though I haven't verified this.
 ## The fix, round one
 
 In July 2020, I reported CVE-2023-41137 to my university, who passed it on
-to AppsAnywhere; unfortunately I was not party to the resulting discussions.
-In August 2023, I checked back to discover a partial fix.
+to AppsAnywhere; I then largely forgot about the whole affair. In August 2023,
+I checked back to discover a partial fix.
 
 Presumably in response to this report, the macOS AppsAnywhere client was
 updated; judging by changelogs, I believe this was client 1.4.0 released in
@@ -201,12 +201,10 @@ my university isn't running the updated server yet):
 
 - Each university gets assigned a Curve25519 public key.
 - The client obtains this public key from AppsAnywhere's "central API" endpoint
-  https://api.software2.com/clients/appsanywhere/dueE8bZ10F/signing/keys.json.
+  `https://api.software2.com/clients/appsanywhere/dueE8bZ10F/signing/keys.json`.
   The string `dueE8bZ10F` is the "institution ID"; the client reads this from
   the message and requests the corresponding key, so any AppsAnywhere client
   will accept installation requests from any university's server.
-
-[^3]: That domain belongs to American Airlines!
 
 To be honest, I'm not completely happy with either fix.
 
