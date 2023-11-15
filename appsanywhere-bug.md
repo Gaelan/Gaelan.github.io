@@ -185,7 +185,8 @@ Windows[^2], so this change did not affect the Windows client.
 
 In August 2023, I reported to my university that CVE-2023-41137 was still
 exploitable, and reported CVE-2023-41138 for the first time. This time, I
-was kept in the loop as a fix was coordinated.
+was kept in the loop as a fix was coordinated. My contact at AppsAnywhere
+was lovely to work with, and very open about their process and proposed fixes.
 
 AppsAnywhere has now released client versions 1.6.1 and 2.0.1 (both versions
 for both macOS and Windows; 1.6.1 is available for universities that haven't
@@ -206,31 +207,16 @@ my university isn't running the updated server yet):
   the message and requests the corresponding key, so any AppsAnywhere client
   will accept installation requests from any university's server.
 
-To be honest, I'm not completely happy with either fix.
+AppsAnywhere has described these changes as short-term fixes while they work
+towards better solutions. Specifically, they've stated that they intend to:
 
-Their implementation of public-key cryptography trusts any university using
-AppsAnywhere, so an attacker who gains access to one university's AppsAnywhere
-installation gets RCE on every university's AppsEverywhere users; in my view, a
-better solution would be to move the app selection process out of the browser
-into a native app, so any launch request has the user's affirmative consent
-by definition.
+- Move to a model where SMJobBlessHelper does the necessary security checks
+  itself (not trusting the client running as the user), significantly reducing
+  the local attack surface.
+- Introducing some sort of explicit consent mechanism so that compromising
+  a university is not sufficient to gain RCE on a client's machine.
 
-Keeping the existing SMJobBlessHelper architecture, but adding a public key
-check, results in a large attack surface; any number of bugs in the
-AppsAnywhere client (which is running as the potentially untrusted user, and
-thus in a hostile environment) could result in LPE. Ideally, the privileged
-component would independently verify that the request came from a trusted
-university.
-
-(These two suggested approaches might sound a little contradictory, but I
-believe they're actually orthogonal. Ultimately, AppsAnywhere should ensure
-that any launch request both has the affirmative consent of the local user -
-preventing remote attacks - and refers to software from a trusted university -
-preventing local attacks by an untrusted user, for example on a
-university-owned machine in a computer lab.)
-
-AppsAnywhere has described their changes as short-term fixes, and say they are
-investigating longer-term improvements. In that context, their approach seems
+Both the simple immediate fix, and these longer-term changes, seem very
 reasonable.
 
 ## What do you need to do about this?
@@ -240,8 +226,12 @@ team should have contacted you about an upgrade. Do this as soon as possible.
 
 If you're an end user, check what version of AppsAnywhere you're running:
 
-- On macOS, find `/Applications/Software2/AppsAnywhere.app` or `/Applications/AppsAnywhere/AppsAnywhere.app`, right click it, and choose "Get Info".
-- On Windows, find `C:\Program Files\Software2\AppsAnywhere\AppsAnywhere.exe` or `C:\Program Files\AppsAnywhere\AppsAnywhere.exe`, and hover over it in the File Explorer.
+- On macOS, find `/Applications/Software2/AppsAnywhere.app` or
+  `/Applications/AppsAnywhere/AppsAnywhere.app`, right click it, and choose
+  "Get Info".
+- On Windows, find `C:\Program Files\Software2\AppsAnywhere\AppsAnywhere.exe`
+  or `C:\Program Files\AppsAnywhere\AppsAnywhere.exe`, and hover over it in the
+  File Explorer.
 
 If you're running a version before 1.6.1 or 2.0.1, try reinstalling
 AppsAnywhere from your university's website; if you still don't have a new
